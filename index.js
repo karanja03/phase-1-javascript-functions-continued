@@ -20,9 +20,22 @@ saturdayFun();
  }
  mondayWork();
 function wrapAdjective(flair = "*"){
-    return function(adjective = "special"){
+    return function(adjective = "a hardworker"){
         return `You are ${flair}${adjective}${flair}!`;
 
     }
 }
 wrapAdjective();
+
+
+function wrapAdjective(flair = "||"){
+    return function(adjective = "a dedicated prgrammer"){
+        return `You are ${flair}${adjective}${flair}!`;
+
+    }
+}
+wrapAdjective();
+
+
+
+
